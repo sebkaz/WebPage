@@ -1,0 +1,11 @@
+/* TEAM */
+	Chef: Sebastian Zajac
+	Contact: seba [at] sebastianzajac.pl
+	Site: https://sebastianzajac.pl
+	From: Warsaw, Poland
+
+/*  SITE */
+	Last update: 2019/09/19
+	Standards: HTML5, CSS3, PHP
+	Language: English / Polish
+	IDE: Atom
