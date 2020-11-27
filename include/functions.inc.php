@@ -89,6 +89,45 @@
      return $string;
  }
 
+
+ function show_monography($conn, $sql){
+     $string = '<div class="row item">
+         <div class="twelve columns">';
+    foreach ($conn->query($sql) as $row) {
+        $string .= '<h3>'.$row['title'].', chapter '.$row['chapter'].'</h3>';
+        $string .= '<h4>'.$row['bookt'].'</h4><p>ED. '.$row['editors'].'</p>';
+        $string .= '<p class="info">'.$row['authors'].'<br/> <span>&bull;</span> <em class="date">';
+        switch ($row['state']) {
+            case 'published':
+                $string .= $row['journal'];
+                $string .= '  ('.$row['data'].')  ';
+                $string .= '</em></p>';
+                break;
+            case 'submitted':
+            $string .= 'submitted to <a href=" '.$row['href'].' " target="_blanck">'.$row['journal'].'
+            </a>
+            </em>
+            </p>';
+                break;
+            default:
+                $string .= 'to appear </em>
+                     </p>';
+                break;
+        }
+        if($row['info'] =='TRUE'){
+                $file_dba = new PDO('sqlite:db_web.db');
+                $sql_i = "SELECT * FROM publications_info WHERE id_publication=".$row['id'];
+                foreach ($file_dba->query($sql_i) as $rows) {
+                    $string .= '<p>'.$rows['content'].' <a href=" '.$rows['href'].'" target="_blanck"> View </a></p>';
+            }
+        }
+    }
+     $string .= '</div>
+      </div>';
+
+     return $string;
+ }
+
  function show_publications($conn, $sql){
      $string = '<div class="row item">
          <div class="twelve columns">';
@@ -128,6 +167,7 @@
 
      return $string;
  }
+
 
  function schow_events($conn, $sql){
      $string = '<ul class="slides">';

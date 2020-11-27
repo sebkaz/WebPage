@@ -1,16 +1,15 @@
-
-    <!-- footer
+<!-- footer
    ================================================== -->
     <footer id="footer">
         <div class="row">
             <div class="six columns contact-right">
                 <h4>Contact</h4>
                 <p> SGH Warsaw School of Economics
-                    <br>Event History and Multilevel Analysis Unit
+                    <br>Department of Statistical Methods and Business Analysis
                     <br> al. Niepodległości 162, 02-554 Warsaw, Poland
                 </p>
                 <p>
-                    e-mail: szajac2 [at] sgh.waw.pl
+                    e-mail: sebastian.zajac [at] sgh.waw.pl
                 </p>
             </div>
             <div class="six columns contact-left">

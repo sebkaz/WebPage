@@ -42,7 +42,7 @@
     <?php include 'resume.html.php';?>
     <?php include 'portfolio.html.php';?>
     <?php include 'events.html.php';?>
-    <?php include 'footer.html.php';?>
+    <?php include 'footer.html.php';?> 
 
     <!-- Java Script
    ================================================== -->

@@ -171,7 +171,7 @@
           </div>
 
           <div class="link-box">
-              <a href="#" target="_blank">Details</a>
+              <a href="https://sebkaz.github.io/teaching/Programowanie_SAS" target="_blank">Details</a>
               <a class="popup-modal-dismiss">Close</a>
           </div>
 

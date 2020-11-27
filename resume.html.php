@@ -39,6 +39,22 @@
         </div>
         <!-- End Publications -->
 
+        <div class="row work">
+
+            <div class="three columns header-col">
+                <h1>
+                    <span>Monographies</span>
+                </h1>
+            </div>
+
+            <div class="nine columns main-col">
+                <?php include 'include/monography.inc.php'; ?>
+            </div>
+            <!-- main-col end -->
+        </div>
+        <!-- End Publications -->
+
+
         <!-- Work -->
         <div class="row work">
 
