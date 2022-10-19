@@ -5,7 +5,7 @@
 	From: Warsaw, Poland
 
 /*  SITE */
-	Last update: 2020/01/12
+	Last update: 2021/08/14
 	Standards: HTML5, CSS3, PHP 
 	Language: English / Polish
 	IDE: Atom

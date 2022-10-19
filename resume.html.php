@@ -70,8 +70,20 @@
             <!-- main-col end -->
         </div>
         <!-- End Work -->
-
         <!--  Certificates -->
+        <div class="row skill">
+            <div class="three columns header-col">
+                <h1>
+                    <span>Supervisor</span>
+                </h1>
+            </div>
+            <div class="nine columns main-col">
+                        <?php include 'include/promotor.inc.php'; ?>
+                </div>
+                <!-- main-col end -->
+            </div>
+            <!-- End promotor-->
+        <!--  Certificates 
         <div class="row skill">
             <div class="three columns header-col">
                 <h1>
@@ -79,10 +91,10 @@
                 </h1>
             </div>
             <div class="nine columns main-col">
-                        <?php include 'include/certificates.inc.php'; ?>
+                        <?php # include 'include/certificates.inc.php'; ?>
                 </div>
-                <!-- main-col end -->
+              
             </div>
-            <!-- End skills -->
+            End certificates-->
         </section>
         <!-- Resume Section End-->

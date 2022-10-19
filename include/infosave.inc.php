@@ -6,7 +6,7 @@
 
     $messages = array(
       array(
-      'czas'=> $czas, 
+      'czas'=> $data_czas, 
       'ip' => $ip,
       'system' => $system,
       'browser' => $browser,
@@ -51,4 +51,3 @@
       // Execute statement
       $stmt->execute();
     }
-    

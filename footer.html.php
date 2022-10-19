@@ -5,7 +5,7 @@
             <div class="six columns contact-right">
                 <h4>Contact</h4>
                 <p> SGH Warsaw School of Economics
-                    <br>Department of Statistical Methods and Business Analysis
+                    <br>Decision Analysis and Support Unit
                     <br> al. Niepodległości 162, 02-554 Warsaw, Poland
                 </p>
                 <p>

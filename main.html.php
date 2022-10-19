@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <title>Sebastian Zajac|homepage</title>
     <meta name="Description" content="Sebastian Zając's Home Page. Physics, Math &amp; More">
-    <meta name="Keywords" content="Sebastian Zając,  Zając, Zajac, data scientists, statistics, physics, neutrino physics, neutrino, python ,RNA, SGH, Research">
+    <meta name="Keywords" content="Sebastian Zając,  Zając, Zajac, data scientists, physics, neutrino physics, RNA, SGH, Research">
     <meta name="Author" content="Sebastian Zając">
     <meta name="robots" content="index,follow" />
     <!-- Mobile Specific Metas

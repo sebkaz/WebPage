@@ -18,8 +18,8 @@
                           <img alt="" src="images/portfolio/DM.jpg">
                           <div class="overlay">
                               <div class="portfolio-item-meta">
-                                  <h5>Data Mining (PL)</h5>
-                                  <p>Cardinal Stefan Wyszynski University in Warsaw, 2018</p>
+                                  <h5>Analiza danych w czasie rzeczywisty</h5>
+                                  <p>PL 2022</p>
                               </div>
                           </div>
                           <div class="link-icon">
@@ -38,8 +38,8 @@
                           <img alt="" src="images/portfolio/judah.jpg">
                           <div class="overlay">
                               <div class="portfolio-item-meta">
-                                  <h5>Statystyka laboratorium w R  (PL)</h5>
-                                  <p>Cardinal Stefan Wyszynski University in Warsaw, 2018</p>
+                                  <h5>Real time analysis</h5>
+                                  <p>EN 2022</p>
                               </div>
                           </div>
                           <div class="link-icon">
@@ -58,8 +58,8 @@
                           <img alt="" src="images/portfolio/into-the-light.jpg">
                           <div class="overlay">
                               <div class="portfolio-item-meta">
-                                  <h5>Statystyka od podstaw z wykorzystaniem narzędzi SAS</h5>
-                                  <p>Warsaw School of Economics, 2018 </p>
+                                  <h5>Wprowadzenie do kwatnowego uczenia maszynowego</h5>
+                                  <p>PL 2022</p>
                               </div>
                           </div>
                           <div class="link-icon">
@@ -78,8 +78,8 @@
                           <img alt="" src="images/portfolio/ASC.jpg">
                           <div class="overlay">
                               <div class="portfolio-item-meta">
-                                  <h5>Postawowe i zaawansowane programowanie oraz statystyka w SAS</h5>
-                                  <p>Warsaw School of Economics, 2019 </p>
+                                  <h5>Polecane ksiązki</h5>
+                                  <p>PL 2022</p>
                               </div>
                           </div>
                           <div class="link-icon">
@@ -105,14 +105,14 @@
           <img class="scale-with-grid" src="images/portfolio/modals/m-DM.jpg" alt="" />
 
           <div class="description-box">
-              <h4>Data Mining (PL)</h4>
-              <p>Kurs dla studentów matematyki i informatyki, 2018</p>
+              <h4>Analiza danych w czasie rzeczywistym </h4>
+              <p>Kurs dla studentów SGH, 2022</p>
               <span class="categories">
-                  <i class="fa fa-tag"></i>Data analysis, Machine Learning, Statistics</span>
+                  <i class="fa fa-tag"></i>Python, Apache Spark, Apache Kafka</span>
           </div>
 
           <div class="link-box">
-              <a href="http://sebkaz.github.io/DataMining" target="_blank">Details</a>
+              <a href="https://sebkaz-teaching.github.io/RealTime/" target="_blank">Details</a>
               <a class="popup-modal-dismiss">Close</a>
           </div>
 
@@ -124,16 +124,14 @@
           <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
 
           <div class="description-box">
-              <h4>Statystyka laboratorium w R (PL)</h4>
-              <p>
-                  Kurs dla studentów matematyki i informatyki,  2018
-              </p>
+              <h4>Real time analytics EN</h4>
+              <p>Lectures for SGH students  2022</p>
               <span class="categories">
-                  <i class="fa fa-tag"></i>Data analysis,  Statistics</span>
+                  <i class="fa fa-tag"></i>Python, Apache Spark, Apache Kafka</span>
           </div>
 
           <div class="link-box">
-              <a href="https://sebkaz.github.io/teaching/statystyka">Details</a>
+              <a href="https://sebkaz-teaching.github.io/RealTimeEN/" target="_blank">Details</a>
               <a class="popup-modal-dismiss">Close</a>
           </div>
 
@@ -145,14 +143,14 @@
           <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
 
           <div class="description-box">
-              <h4>Statystyka od podstaw w SAS</h4>
-              <p>SGH, 2018</p>
+              <h4>Wprowadzenie do kwantowego uczenia maszynowego</h4>
+              <p>Kurs dla studentów SGH, 2022</p>
               <span class="categories">
-                  <i class="fa fa-tag"></i>Statistics, Data analysis</span>
+                  <i class="fa fa-tag"></i>Quantum Computing, pennylane, qiskit</span>
           </div>
 
           <div class="link-box">
-              <a href="https://sebkaz.github.io/teaching/SOP_SAS" target="_blank">Details</a>
+              <a href="https://sebkaz-teaching.github.io/intro_to_qml/" target="_blank">Details</a>
               <a class="popup-modal-dismiss">Close</a>
           </div>
 
@@ -164,14 +162,14 @@
           <img class="scale-with-grid" src="images/portfolio/modals/m-ASC.jpg" alt="" />
 
           <div class="description-box">
-              <h4>Postawowe i zaawansowane programowanie oraz statystyka w SAS</h4>
-              <p>SGH, 2019</p>
+              <h4>Polecane ksiązki</h4>
+              <p>2022</p>
               <span class="categories">
-                  <i class="fa fa-tag"></i>SAS programming, Data analysis, statistics</span>
+                  <i class="fa fa-tag"></i>Data analysis, Python programming, statistics</span>
           </div>
 
           <div class="link-box">
-              <a href="https://sebkaz.github.io/teaching/Programowanie_SAS" target="_blank">Details</a>
+              <a href="https://sebkaz-teaching.github.io/RealTime/ksiazki/" target="_blank">Details</a>
               <a class="popup-modal-dismiss">Close</a>
           </div>
 

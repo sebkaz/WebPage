@@ -48,6 +48,16 @@
  return $string;
  }
 
+ function show_promotor($conn, $sql){
+    $string = '<ul>';
+    foreach ($conn->query($sql) as $row){
+        $string .= '<li> ,,'.$row['tytul']."''<br> ".$row['level'].
+        '<strong> '.$row['student'].' </strong>'. $row['uczelnia'].' ('.$row['data'].') </li>';
+    }
+    $string .= "</ul>";
+    return $string;
+ }
+
  function show_educations($conn, $sql){
      $string = '';
      $head = '';
@@ -94,26 +104,31 @@
      $string = '<div class="row item">
          <div class="twelve columns">';
     foreach ($conn->query($sql) as $row) {
-        $string .= '<h3>'.$row['title'].', chapter '.$row['chapter'].'</h3>';
-        $string .= '<h4>'.$row['bookt'].'</h4><p>ED. '.$row['editors'].'</p>';
-        $string .= '<p class="info">'.$row['authors'].'<br/> <span>&bull;</span> <em class="date">';
+        if($row['title'!='']){
+            $string .= '<h3>'.$row['title'].', chapter '.$row['chapter'].'</h3>';
+            $string .= '<h4>'.$row['bookt'].'</h4><p>ED. '.$row['editors'].'</p>';
+            $string .= '<p class="info">'.$row['authors'].'<br/>';
+        }
+        else{
+            $string .= '<h3>'.$row['bookt'].'</h3>';
+            $string .= '<p>ED. '.$row['editors'].'</p><p>';
+        }
+        $string .= '<span>&bull;</span><em class="date">';
         switch ($row['state']) {
             case 'published':
-                $string .= $row['journal'];
+                $string .= '<a href=" '.$row['href'].' " target="_blank">';
+                $string .= $row['journal'].'</a>';
                 $string .= '  ('.$row['data'].')  ';
-                $string .= '</em></p>';
                 break;
             case 'submitted':
-            $string .= 'submitted to <a href=" '.$row['href'].' " target="_blanck">'.$row['journal'].'
-            </a>
-            </em>
-            </p>';
+            $string .= 'submitted to <a href=" '.$row['href'].' " target="_blank">'.$row['journal'].'
+            </a>';
                 break;
             default:
-                $string .= 'to appear </em>
-                     </p>';
+                $string .= 'to appear';
                 break;
         }
+        $string .= '</em></p>';
         if($row['info'] =='TRUE'){
                 $file_dba = new PDO('sqlite:db_web.db');
                 $sql_i = "SELECT * FROM publications_info WHERE id_publication=".$row['id'];
@@ -175,7 +190,7 @@
          $string .= '<li>
              <h2><a href="'.$row['href'].' " target="_blank"> '.$row['name'].'</a>
              <br/>'.$row['mounth'].', '.$row['data'].', '.$row['city'].', '.$row['country'].'</h2>';
-        $string .=  '<p>'.$row['content'].'</p><cite>'.$row['tags'].'</cite></li>';  
+        $string .=  '<p>'.$row['content'].'</p><cite>'.$row['tags'].'</cite></li>';
     }
     $string .= '</ul>';
      return $string;
